@@ -1,0 +1,22 @@
+{
+  "name": "graphql-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --ext js,graphql",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "get-schema": "graphql get-schema -p graphql-prisma"
+  },
+  "keywords": [],
+  "author": "Khaled Hossain <md.khaled.eee@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-cli": "3.0.6",
+    "graphql-yoga": "1.17.0",
+    "lodash": "4.17.11",
+    "nodemon": "1.18.9",
+    "prisma-binding": "2.2.16",
+    "uuid": "3.3.2"
+  }
+}
